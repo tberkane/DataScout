@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use DataScout, please cite the paper below."
+title: "DataScout: LLM-based web data collection for research dataset creation"
+type: software
+authors:
+  - family-names: Berkane
+    given-names: Thomas
+version: 0.1.0
+date-released: "2026-11-18"
+license: Apache-2.0
+repository-code: "https://github.com/tberkane/DataScout"
+url: "https://tberkane.github.io/DataScout/"
+keywords:
+  - web data collection
+  - large language models
+  - information extraction
+  - dataset creation
+  - public health
+preferred-citation:
+  type: conference-paper
+  title: "LLM-Based Web Data Collection for Research Dataset Creation"
+  authors:
+    - family-names: Berkane
+      given-names: Thomas
+    - family-names: Charpignon
+      given-names: Marie-Laure
+    - family-names: Majumder
+      given-names: Maimuna S.
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2025"
+  publisher:
+    name: Association for Computational Linguistics
+  conference:
+    name: "EMNLP 2025"
+    city: Suzhou
+    country: CN
+  year: 2025
+  month: 11
+  start: 12610
+  end: 12622
+  isbn: "979-8-89176-335-7"
+  doi: "10.18653/v1/2025.findings-emnlp.674"
+  url: "https://aclanthology.org/2025.findings-emnlp.674/"

@@ -1,0 +1,16 @@
+DataScout
+Copyright 2025-2026 Thomas Berkane
+
+This product includes data derived from others:
+
+src/datascout/data/country_to_mc_sources.json
+  Lists of news-source domains per country, taken from the country collections of the
+  Media Cloud source directory (https://www.mediacloud.org/), an open-source project for
+  media research. The domains are used only to restrict searches to those sources.
+
+src/datascout/data/country_to_code.json
+  Country names mapped to the two-letter country codes accepted by Google Search's "gl"
+  parameter.
+
+examples/data/
+  Data points collected from public web pages; each row links to its source page.

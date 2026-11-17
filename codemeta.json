@@ -1,0 +1,41 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "DataScout",
+  "description": "LLM-based web data collection for research dataset creation: search query generation, Google search with date, country and news-source filters, reranking, schema-based extraction from web pages and PDFs with grounding checks, and LLM quality control.",
+  "version": "0.1.0",
+  "softwareVersion": "0.1.0",
+  "dateCreated": "2025-08-01",
+  "datePublished": "2026-11-18",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "codeRepository": "https://github.com/tberkane/DataScout",
+  "url": "https://tberkane.github.io/DataScout/",
+  "issueTracker": "https://github.com/tberkane/DataScout/issues",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python >= 3.10",
+  "developmentStatus": "active",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Thomas",
+      "familyName": "Berkane"
+    }
+  ],
+  "keywords": [
+    "web data collection",
+    "large language models",
+    "information extraction",
+    "dataset creation",
+    "public health"
+  ],
+  "softwareRequirements": [
+    "crawl4ai>=0.6",
+    "htmldate>=1.9",
+    "litellm>=1.60",
+    "mistralai>=1.0.0,<2.0.0",
+    "pandas>=2.0",
+    "pydantic>=2.0",
+    "requests>=2.28"
+  ],
+  "referencePublication": "https://doi.org/10.18653/v1/2025.findings-emnlp.674"
+}
